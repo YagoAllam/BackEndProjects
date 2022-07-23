@@ -1,0 +1,26 @@
+package it.epicode.multimedia.player;
+
+//creazione classe per i file audio
+//e implementa l'interfaccia
+
+public class Audio extends Multimedia implements RiproduciElemento {
+	
+	private double durata;
+	private double volume;
+
+
+	public Audio(String title, double durata, double volume) {
+		super(title);
+		this.durata = durata;
+		this.volume = volume;
+		
+	}
+
+
+	@Override
+	public void play() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

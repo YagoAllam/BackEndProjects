@@ -1,0 +1,13 @@
+package it.epicode.multimedia.player;
+
+//creazione classe per le immagini
+// e implementa l'interfaccia
+
+public class Immagine extends Multimedia implements VisualizzaElemento{
+
+	public Immagine(String title) {
+		super(title);
+		
+	}
+
+}

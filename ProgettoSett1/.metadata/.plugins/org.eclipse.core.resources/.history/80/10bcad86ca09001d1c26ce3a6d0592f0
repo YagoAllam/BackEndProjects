@@ -1,0 +1,45 @@
+package it.epicode.multimedia.player;
+
+import java.util.Scanner;
+
+public class Program {
+
+	/*
+	 * il codice di un lettore multimediale che memorizza 5 elementi (creati con
+	 * valori letti da tastiera) in un array e poi chiede ripetutamente all'utente
+	 * quale oggetto eseguire (leggendo un intero da 1 a 5 oppure 0 per finire).
+	 */
+
+	public static Scanner scanner = new Scanner(System.in);
+
+	public static int readInt() {
+		return Integer.parseInt(scanner.nextLine());
+	}
+	public static String readString() {
+		return scanner.nextLine();
+	}
+
+	static void gestisciElement(Multimedia m) {
+		// visualizzi il video, l'immagine o l'audio
+		// se è immagine, show
+		// altrimenti play
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Multimedia[] media = new Multimedia[5];
+
+		System.out.println("Cosa vuoi creare=");
+		int scelta = readInt();
+		switch (scelta) {
+		case 1: // crea immagine
+		case 2: // crea audio
+		case 3: // crea video
+		}
+		
+		// chiedi cosa vuole visualizzare
+		gestisciElement(media[1]);
+
+	}
+
+}

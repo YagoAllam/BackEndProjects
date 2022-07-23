@@ -1,0 +1,35 @@
+//Player multimediale
+//Creare una classe per ogni elemento multimediale: [Immagine], [Video], [Audio] ==> tutte identificate da un titolo
+
+//Solo [Audio] e [video] sono elementi <riproducibili>, con il metodo play() ==> perchè hanno una (durata)
+
+
+//[immagine] invece non è riproducibile perchè non ha una durata, ma sarà <mostrata> con il metodo show()
+
+
+//[AUDIO] e [VIDEO] hanno in comune i seguenti metodi:
+		// play()
+		// alzaVolume()
+		// abbassaVolume()
+		
+//[VIDEO] e [IMMAGINE] hanno in comune i seguenti metodi:
+		// alzaLuminosità()
+		// abbassaLuminosità()	
+
+//ATTRIBUTI:											//METODI:
+		[Immagine] ==> double luminosità;						[Immagine] ==> show();
+																			   alzaLuminosità();
+																			   abbassaLuminosità();
+		
+		[Audio] ==> double volume;								[Audio] ==>  play();
+																			 alzaVolume();	
+																			 abbassaVolume();
+																			 
+		[Video] ==> double luminosità;							[Video] ==> alzaVolume();
+					double volume;											abbassaVolume();
+																			play();
+																		    alzaLuminosità();		
+																		    abbassaLuminosità();
+																		    
+Organizzare le interfacce per i metodi in comune:
+	

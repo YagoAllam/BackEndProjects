@@ -1,0 +1,28 @@
+package it.epicode.player;
+
+public class Video extends ElMultimediale implements ElRiproducibile {
+
+	public Video(String title) {
+		super(title);
+		
+	}
+
+	@Override
+	public void play() {
+		
+		
+	}
+
+	@Override
+	public void abbassaVolume() {
+		
+		
+	}
+
+	@Override
+	public void alzaVolume() {
+		
+		
+	}
+
+}

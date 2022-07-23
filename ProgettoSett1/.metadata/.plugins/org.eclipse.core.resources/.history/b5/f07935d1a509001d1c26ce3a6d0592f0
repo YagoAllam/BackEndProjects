@@ -1,0 +1,7 @@
+package it.epicode.multimedia.player;
+
+public interface VisualizzaElemento {
+
+	public static void play() {
+	}
+}

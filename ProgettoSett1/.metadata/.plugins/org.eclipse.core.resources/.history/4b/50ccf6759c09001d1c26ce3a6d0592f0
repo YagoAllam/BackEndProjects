@@ -1,0 +1,11 @@
+package it.epicode.player;
+
+public abstract class ElMultimediale {
+
+	protected String title;
+
+	public ElMultimediale(String title) {
+
+		this.title = title;
+	}
+}

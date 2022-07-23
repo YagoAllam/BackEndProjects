@@ -1,0 +1,8 @@
+package it.epicode.multimedia.player;
+
+public interface RiproduciElemento {
+
+	public static void play() {
+		
+	}
+}

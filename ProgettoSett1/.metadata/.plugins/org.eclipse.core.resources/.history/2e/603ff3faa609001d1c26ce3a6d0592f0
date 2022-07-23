@@ -1,0 +1,6 @@
+package it.epicode.multimedia.player;
+
+//creazione classe per i file audio
+public class Audio {
+
+}

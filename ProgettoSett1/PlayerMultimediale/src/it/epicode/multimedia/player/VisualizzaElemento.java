@@ -1,0 +1,7 @@
+package it.epicode.multimedia.player;
+//interfaccia per gli elementi riproducibili
+
+public interface VisualizzaElemento {
+
+	public void show();
+}

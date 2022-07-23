@@ -1,0 +1,6 @@
+package it.epicode.player;
+
+public interface ElRiproducibile {
+
+	public void play();
+}

@@ -1,0 +1,5 @@
+package it.epicode.multimedia.player;
+
+public class Audio {
+
+}

@@ -1,0 +1,86 @@
+package it.epicode.multimedia.player;
+
+//creazione classe per i file video
+//e implementa l'interfaccia
+
+public class Video extends Multimedia implements RiproduciElemento {
+
+	private int luminosità;
+	private int durata;
+	private int volume;
+
+	public Video(String title, int luminosità, int durata, int volume) {
+ 
+		super(title);
+		this.luminosità = luminosità;
+		this.durata = durata;
+		this.volume = volume;
+
+	}
+	
+	//getter e setter
+	
+	public int getLuminosità() {
+		return luminosità;
+	}
+
+	public void setLuminosità(int luminosità) {
+		this.luminosità = luminosità;
+	}
+
+	public int getDurata() {
+		return durata;
+	}
+
+	public void setDurata(int durata) {
+		this.durata = durata;
+	}
+
+	public int getVolume() {
+		return volume;
+	}
+
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+
+	//metodo per alzare il volume 
+	
+	public void alzaVolume(int volume) {
+		
+		this.volume = volume++;
+				
+	}
+
+	//metodo per abbassare il volume 
+	
+	public void abbassaVolume(int volume) {
+		
+		this.volume = volume--;
+				
+	}
+	
+	//metodo per alzare la luminosità
+	
+	public void alzaLuminosità(int luminosità) {
+		this.luminosità = luminosità++;
+	}
+	
+	//metodo per abbassare la luminosità 
+	
+	public void abbassaLuminosità(int luminosità) {
+		this.luminosità = luminosità--;
+	}
+
+	//Se riprodotta, ripete per un [n volte] pari alla (durata) la stampa del titolo concatenato a una
+	//sequenza di punti esclamativi di lunghezza pari al volume e poi a una sequenza di asterischi di lunghezza pari alla
+	//luminosità.
+
+	
+	@Override
+	public void play() {
+		
+		
+	}
+
+}

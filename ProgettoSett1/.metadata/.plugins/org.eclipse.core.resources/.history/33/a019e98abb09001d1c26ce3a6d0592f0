@@ -1,0 +1,47 @@
+package it.epicode.multimedia.player;
+
+//creazione classe per i file video
+//e implementa l'interfaccia
+
+public class Video extends Multimedia implements RiproduciElemento {
+
+	private int luminosità;
+	private int durata;
+	private int volume;
+
+	public Video(String title, int luminosità, int durata, int volume) {
+ 
+		super(title);
+		this.luminosità = luminosità;
+		this.durata = durata;
+		this.volume = volume;
+
+	}
+	
+	public void alzaVolume(int volume) {
+		
+		this.volume = volume++;
+				
+	}
+
+	public void abbassaVolume(int volume) {
+		
+		this.volume = volume--;
+				
+	}
+	
+	public void alzaLuminosità(int luminosità) {
+		this.luminosità = luminosità++;
+	}
+	
+	public void abbassaLuminosità(int luminosità) {
+		this.luminosità = luminosità--;
+	}
+
+	@Override
+	public void play() {
+		
+		
+	}
+
+}

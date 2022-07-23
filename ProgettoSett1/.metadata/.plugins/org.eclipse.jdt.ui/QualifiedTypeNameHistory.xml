@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="it.epicode.player.ElMultimediale"/>
+    <fullyQualifiedTypeName name="it.epicode.player.ElRiproducibile"/>
+    <fullyQualifiedTypeName name="it.epicode.player.ElVisualizzabile"/>
+    <fullyQualifiedTypeName name="it.epicode.multimedia.player.Multimedia"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.Media"/>
+    <fullyQualifiedTypeName name="it.epicode.multimedia.player.Video"/>
+    <fullyQualifiedTypeName name="it.epicode.multimedia.player.Audio"/>
+    <fullyQualifiedTypeName name="java.awt.font.ImageGraphicAttribute"/>
+    <fullyQualifiedTypeName name="it.epicode.multimedia.player.Immagine"/>
+    <fullyQualifiedTypeName name="it.epicode.multimedia.player.RiproduciElemento"/>
+    <fullyQualifiedTypeName name="it.epicode.multimedia.player.VisualizzaElemento"/>
+</qualifiedTypeNameHistroy>

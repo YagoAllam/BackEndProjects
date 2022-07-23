@@ -1,0 +1,12 @@
+package it.epicode.multimedia.player;
+
+//creazione classe per i file video
+
+public class Video extends Multimedia implements RiproduciElemento{
+
+	public Video(String title) {
+		super(title);
+		// TODO Auto-generated constructor stub
+	}
+	
+}

@@ -1,0 +1,22 @@
+package it.epicode.multimedia.player;
+
+//creazione classe per le immagini
+// e implementa l'interfaccia
+
+public class Immagine extends Multimedia implements VisualizzaElemento{
+	
+	private double luminosità;
+
+	public Immagine(String title, double luminosità) {
+		super(title);
+		this.luminosità = luminosità;
+				
+	}
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

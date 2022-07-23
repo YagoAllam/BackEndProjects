@@ -1,0 +1,6 @@
+package it.epicode.player;
+
+public interface ElVisualizzabile {
+	
+	public void show();
+}
