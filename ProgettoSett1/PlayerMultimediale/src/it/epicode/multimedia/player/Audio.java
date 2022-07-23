@@ -1,13 +1,13 @@
 package it.epicode.multimedia.player;
 
-//creazione classe per i file audio
-//e implementa l'interfaccia
-
+//creare una class audio è sotto classe della superclass Multimeda e implementare l' Interface riproduciElemento
 public class Audio extends Multimedia implements RiproduciElemento {
 
+	// attributi durata e volume che è caratteristica dell'elemento Audio
 	private int durata;
 	private int volume;
 
+	// constructor per l'Audio
 	public Audio(String title, int durata, int volume) {
 		super(title);
 		this.durata = durata;
@@ -16,7 +16,6 @@ public class Audio extends Multimedia implements RiproduciElemento {
 	}
 
 	// getter e setter
-
 	public int getDurata() {
 		return durata;
 	}
@@ -33,7 +32,7 @@ public class Audio extends Multimedia implements RiproduciElemento {
 		this.volume = volume;
 	}
 
-	// metodo per alzare il volume
+	// per alzare il volume si richiama l'attrib volume e si aumenta con un metodo
 
 	public void alzaVolume(int volume) {
 
@@ -41,7 +40,8 @@ public class Audio extends Multimedia implements RiproduciElemento {
 
 	}
 
-	// metodo per abbassare il volume
+	// per abbassare il volume si richiama l'attrib volume e si diminuisce con un
+	// metodo
 
 	public void abbassaVolume(int volume) {
 
@@ -49,31 +49,31 @@ public class Audio extends Multimedia implements RiproduciElemento {
 
 	}
 
-	// Una registrazione Audio è riproducibile e ha associato anche un volume (un
-	// valore positivo di tipo int) e i metodi
-	// abbassaVolume() e alzaVolume() per regolarlo. Se riprodotta, ripete per (n
-	// volte) pari alla (durata) la
-	// stampa del titolo concatenato a una sequenza di punti esclamativi di
-	// lunghezza pari al volume.
+	// metodo PLAY() del Audio:
 
-	// metodo Play
+	/*
+	 * . Se riprodotta, ripete per un numero di volte pari alla durata la stampa del
+	 * titolo concatenato a una sequenza di punti esclamativi di lunghezza pari al
+	 * volume
+	 */
 
 	@Override
 	public void play() {
-		String esclamativo = "";
-		String asterisco = "";
-
-		// L'audio è riproducibile se il volume è maggiore di 0
+		// Audio è riproducibile se ha associato anche un volume (un valore positivo di
+		// tipo int)
 		if (volume > 0) {
-			// stampa del titolo + (!)==> per indicare il volume
-
+			// il ciclo prevede una stampa del (titolo) + (!)*volume
+			String esclamativo = "";
 			// stampa del titolo
-			System.out.println(this.title);
 
-			// stampa n volte (!) quanto è alto il volume
+			System.out.println(this.title);
+			// stampa di n volte ! quanto alto è il volume
 			for (int i = 0; i < volume; i++) {
 				esclamativo += "!";
+
 			}
+			System.out.println(esclamativo);
+
 		}
 
 	}

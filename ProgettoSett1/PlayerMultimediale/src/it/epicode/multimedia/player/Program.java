@@ -34,15 +34,30 @@ public class Program {
 
 	}
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	static void creaImmagine(String title, int lum) {
+		Immagine nuovaImmagine = new Immagine(title, lum);
 
-		Multimedia[] media = new Multimedia[5];
+	}
+
+	public static void main(String[] args) {
+
+		/**
+		 * creare un array media che è una istanza della classe Multimedia con 5
+		 * elementi multimediali (video, audio o immagine) Essi sono istanze delle sotto
+		 * classi [Video, Audio o Immagine]
+		 * 
+		 */
+		Multimedia[] media = new Multimedia[] { new Immagine("myPhoto", 2), new Video("myVideo", 2, 3, 4),
+				new Audio("Myaudio", 0, 0), new Video("myVideo2", 1, 5, 4), new Immagine("myPhoto2", 5) };
 
 		System.out.println("Cosa vuoi creare=");
 		int scelta = readInt();
 		switch (scelta) {
+
 		case 1: // crea immagine
+
+			creaImmagine("myPhoto", 5);
+
 		case 2: // crea audio
 		case 3: // crea video
 		}
