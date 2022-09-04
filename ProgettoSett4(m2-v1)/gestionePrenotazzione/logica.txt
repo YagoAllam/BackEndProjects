@@ -1,0 +1,26 @@
+
+MODELS:
+ - PostazioneAziendale: codiceUnivoco(id), descrizione String ,   tipo Enam (privato, openspace,sala riunioni), numeroOccupati (Long),
+                       Edificio (Class);
+                      
+                      
+ - Edificio: id (Chiave primaria),  nome (String), indirizio(String) citta(String);
+
+
+
+ - Utente:  username (String), nome (String), cognome (String) , email (String); 
+
+
+ - Prenotazione: id, data (Data), utente (Utente), PostazioneAziendale (PostazioneAziendale);
+
+
+
+
+
+OPERAZIONI(SERVIZI):
+
+ - utente cerca una postazione (tipoPostaz e citta)
+
+
+
+
