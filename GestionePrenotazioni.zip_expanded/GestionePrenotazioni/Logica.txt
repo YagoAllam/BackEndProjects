@@ -1,0 +1,35 @@
+GESTIONE PRENOTAZIONI
+
+MODELS:
+	postazione      ---> codiceUnivoco      int (id)
+	                     descrizione        String
+	                     tipo               Enum [PRIVATO, OPENSPACE, SALA RIUNIONI]
+	                     numeroOccupanti    Long 
+	                     edificio           edificio 
+	                        
+	edificio        ---> nome       String
+						 città      String
+						 indirizzo  String
+						 int (id)
+	
+						 (id)
+	utente          ---> username       String        
+						 nome           String 
+						 cognome        String		
+						 mail           String	
+						
+						 
+						 
+	prenotazione    ---> data       data
+						 utente     utente
+						 postazione postazione	 
+						 (id)       String
+
+
+SERVICES:
+
+--- utente cerca postazione 
+
+
+							 
+						 

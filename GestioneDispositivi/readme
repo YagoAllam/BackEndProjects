@@ -1,0 +1,31 @@
+Models:
+
+Dispositivo --> Long          - id
+            --> Enum Tipo     - smartPhone
+                              - tablet
+                              - lapTop
+                              
+            --> Enum Stato    - Disponible
+                              - assegnato
+                              - manutenzione
+                              - dismesso
+                
+               
+            
+            
+                     
+User        --> Long          - id
+            --> String        - userName
+            --> String        - nome
+            --> String        - cognome
+            --> String        - mail
+               
+               
+               
+Metodi(LogicaBusiness): 
+
+REST - GET 
+     - POST 
+     - PUT 
+     - DELETE
+              

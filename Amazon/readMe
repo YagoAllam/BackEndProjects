@@ -1,0 +1,62 @@
+
+1- identificare gli oggetti: cosa devono essere in grado o non in grado di fare
+                            - aggiungere attributi (catatteristiche degli oggetti) 
+                            
+2- identificare gli azioni : ogni ogetto deve avere la CRUD per le API
+                             e poi gli azioni che mi chiede il cliente 
+                            
+Models:
+    
+      Utente   non può acquistare se non è loggato  --> token
+               
+               attributi
+            --> nome
+            --> cognome
+            --> username
+    
+    
+     Prodotto  
+           
+           attributi
+            --> prezzo
+            --> valutazione
+            --> prezzo base
+            --> prezzo scontato
+            --> marchio
+            --> modello 
+            --> foto
+            
+   
+            
+            
+   Carello  può contenere più prodotti ed è persistente (salvato nel backend)
+            --> prodotto
+            --> quantita
+            --> rigaCarello (List)
+            
+            
+            
+     (una classe che collega il prodotto al carello)       
+     RigaCarello:
+            --> prodotto  (aggiunto al carrello)
+            --> quantita  (del prodotto aggiunto) 
+            --> prezzo    (al momento dell'aggiunta)
+            --> regalo    (se è reagalo o no)
+           
+            
+             
+             
+Azioni:   
+  
+       - aggiungere prodotto
+       - togliere prodotto
+       - acquistare
+       
+       
+ 
+API: gestione di Utente e Prodott (CRUD)
+
+
+sostanzia
+
+
