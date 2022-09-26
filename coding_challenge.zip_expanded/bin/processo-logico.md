@@ -1,0 +1,11 @@
+# Processo Logico
+
+...
+
+## COSA NON HO FATTO / GESTITO
+
+...
+
+## COME HO VALUTATO LA CORRETTEZZA DELLA SOLUZIONE
+
+...

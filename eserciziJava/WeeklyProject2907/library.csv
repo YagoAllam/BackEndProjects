@@ -1,0 +1,20 @@
+B;1;12341;Libro 1;1930;105;Autore 2;Genere 1
+B;1;12342;Libro 2;1940;110;Autore 3;Genere 2
+B;1;12340;Libro 0;1920;100;Autore 1;Genere 0
+M;1;54322;Magazine2;1960;26;2
+M;1;54321;Magazine1;1950;23;1
+M;1;54320;Magazine0;1940;20;0
+M;1;54326;Magazine6;2000;38;0
+M;1;54325;Magazine5;1990;35;2
+M;1;54324;Magazine4;1980;32;1
+M;1;54323;Magazine3;1970;29;0
+B;1;12345;Libro 5;1970;125;Autore 1;Genere 5
+B;1;12346;Libro 6;1980;130;Autore 2;Genere 6
+M;1;54329;Magazine9;2030;47;0
+B;1;12343;Libro 3;1950;115;Autore 4;Genere 3
+M;1;54328;Magazine8;2020;44;2
+B;1;12344;Libro 4;1960;120;Autore 5;Genere 4
+M;1;54327;Magazine7;2010;41;1
+B;1;12349;Libro 9;2010;145;Autore 5;Genere 9
+B;1;12347;Libro 7;1990;135;Autore 3;Genere 7
+B;1;12348;Libro 8;2000;140;Autore 4;Genere 8

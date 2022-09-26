@@ -1,0 +1,431 @@
+11:12:58 [DEBUG] it.epicode.ContoCorrente > Deposito 1000.0
+11:12:58 [DEBUG] it.epicode.ContoCorrente > Deposito 1000.0
+11:12:58 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:12:58 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:14:20 [DEBUG] it.epicode.ContoCorrente > ContoRossi - Deposito 1000.0
+11:14:21 [DEBUG] it.epicode.ContoCorrente > ContoVerdi - Deposito 1000.0
+11:14:21 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:14:21 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:19:06 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:19:07 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:19:07 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:19:07 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:19:08 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 500.0
+11:19:08 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 500.0 dal conto Conto: Verdi - Saldo 500,000000
+11:19:10 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 300.0
+11:19:10 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 300.0 dal conto Conto: Verdi - Saldo 200,000000
+11:19:10 [DEBUG] it.epicode.Bancomat > Prelievo di 500.0 impossibile dal conto Conto: Verdi - Saldo 200,000000
+11:19:12 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 300.0
+11:19:12 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 300.0 dal conto Conto: Rossi - Saldo 700,000000
+11:22:52 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:22:53 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:22:53 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:22:53 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:22:54 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:22:54 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:22:54 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:22:54 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 900,000000
+11:22:54 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+11:22:54 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+11:22:56 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:22:56 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:22:56 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:22:56 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 700,000000
+11:22:56 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:22:56 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 800,000000
+11:22:58 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:22:58 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:22:58 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:22:58 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 500,000000
+11:22:58 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:22:58 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 700,000000
+11:22:59 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:22:59 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:22:59 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:22:59 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 600,000000
+11:22:59 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 300,000000
+11:22:59 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:23:01 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:23:01 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:23:01 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:23:01 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 500,000000
+11:23:01 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:23:01 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:23:01 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:01 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:02 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:02 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:02 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:23:02 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:02 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:02 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 400,000000
+11:23:03 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:03 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:03 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:03 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:23:04 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:23:04 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 300,000000
+11:23:05 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:23:05 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 200,000000
+11:23:07 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:23:07 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 100,000000
+11:23:08 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:23:08 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 0,000000
+11:24:46 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:24:46 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:24:46 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:24:46 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:24:48 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:48 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:48 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+11:24:48 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+11:24:49 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:49 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:49 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 700,000000
+11:24:49 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:24:51 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:51 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:51 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 500,000000
+11:24:51 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:24:52 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:52 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:52 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 300,000000
+11:24:52 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:24:54 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:54 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:24:54 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 100,000000
+11:24:54 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:24:54 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:24:54 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:24:55 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:24:55 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:24:55 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:24:55 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:24:56 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:24:56 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:24:56 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:24:56 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:43 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:25:44 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:25:44 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:25:44 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:25:45 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:45 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:45 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+11:25:45 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+11:25:47 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:47 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:47 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:25:47 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 700,000000
+11:25:49 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:49 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:49 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:25:49 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:25:50 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:50 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:50 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 300,000000
+11:25:50 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:25:52 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:52 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:25:52 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:25:52 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:25:52 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:52 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:53 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:53 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:53 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:53 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:54 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:54 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:54 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:25:54 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:16 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:26:17 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:26:17 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:26:17 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:26:18 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:18 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:18 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+11:26:18 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+11:26:19 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:19 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:19 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:26:19 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:26:20 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:20 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:20 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:26:20 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 500,000000
+11:26:21 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:21 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:21 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:26:21 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 300,000000
+11:26:22 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:22 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:26:22 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:26:22 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 100,000000
+11:26:23 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:23 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:23 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:23 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:24 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:24 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:24 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:24 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:25 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:26:25 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:28:56 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:28:56 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:28:56 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:28:56 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:28:57 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:28:57 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:28:57 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+11:28:57 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+11:28:59 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:28:59 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:28:59 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 700,000000
+11:28:59 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:29:00 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:00 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:00 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:29:00 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:29:01 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:01 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:01 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:29:01 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:29:02 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:02 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:02 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:29:02 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:29:02 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:02 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:03 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:03 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:04 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:04 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:04 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:04 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:05 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:05 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:36 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:29:36 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:29:36 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:29:36 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:29:37 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:37 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+11:29:38 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:38 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+11:29:39 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:39 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 700,000000
+11:29:39 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:39 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:29:40 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:40 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 500,000000
+11:29:40 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:40 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:29:41 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:41 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 300,000000
+11:29:42 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:42 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:29:42 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:42 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 100,000000
+11:29:43 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:29:43 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:29:43 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:29:43 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:44 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:44 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:44 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:44 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:45 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:45 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:45 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:29:45 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:22 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:33:22 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:33:22 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:33:22 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:33:22 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:22 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:23 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:23 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:23 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+11:33:23 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+11:33:23 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:23 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:24 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:24 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:24 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 700,000000
+11:33:24 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:33:25 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:25 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:25 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:25 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:25 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 500,000000
+11:33:25 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:33:26 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:26 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:26 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:26 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:26 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:33:26 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 300,000000
+11:33:27 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:27 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:33:27 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:27 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:33:27 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:33:27 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 100,000000
+11:33:28 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:28 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:28 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:28 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:29 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:29 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:29 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:29 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:30 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:30 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:33:58 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:33:58 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:33:58 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:33:58 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:33:59 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:00 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:00 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:00 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+11:34:00 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:00 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:00 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+11:34:01 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:01 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:01 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 700,000000
+11:34:01 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:01 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:01 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:34:02 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:02 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:02 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 500,000000
+11:34:03 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:03 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:03 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:34:03 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:03 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:03 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 300,000000
+11:34:04 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:04 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:04 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:34:04 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:04 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:04 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 100,000000
+11:34:05 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:34:05 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:05 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:34:06 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:34:06 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:34:06 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:34:06 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:34:07 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:34:07 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:34:07 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:34:07 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:34:08 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:34:08 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:34:58 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+11:34:59 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+11:34:59 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+11:34:59 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+11:34:59 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:34:59 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:00 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:00 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:00 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:00 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+11:35:00 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 900,000000
+11:35:00 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:00 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:00 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:00 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+11:35:01 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:01 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 800,000000
+11:35:01 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:01 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:01 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 700,000000
+11:35:01 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:02 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:02 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:02 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000
+11:35:02 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:02 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 700,000000
+11:35:02 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:02 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:02 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 500,000000
+11:35:03 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:03 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:03 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:03 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 400,000000
+11:35:03 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:03 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 600,000000
+11:35:03 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:03 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:03 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 300,000000
+11:35:04 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:04 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:04 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:04 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 200,000000
+11:35:04 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:04 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 500,000000
+11:35:05 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:05 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:05 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 100,000000
+11:35:05 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:05 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+11:35:05 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+11:35:05 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:35:05 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:05 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 400,000000
+11:35:06 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:35:06 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 0,000000
+11:35:06 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:06 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:35:06 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:35:07 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:07 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 300,000000
+11:35:07 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:35:07 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:35:07 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:07 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:35:07 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:35:08 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:08 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 200,000000
+11:35:08 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:35:08 [DEBUG] it.epicode.Bancomat > Prelievo di 100.0 impossibile dal conto Conto: Verdi - Saldo 0,000000
+11:35:08 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:09 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:09 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 100,000000
+11:35:09 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+11:35:10 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+11:35:10 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 0,000000
+14:38:54 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Deposito 1000.0
+14:38:54 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Deposito 1000.0
+14:38:54 [INFO] it.epicode.Program > Il conto dei Rossi ha un saldo di 1000.0
+14:38:54 [INFO] it.epicode.Program > Il conto dei Verdi ha un saldo di 1000.0
+14:38:55 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+14:38:55 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+14:38:55 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+14:38:55 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+14:38:55 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+14:38:55 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 900,000000
+14:38:55 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 900,000000
+14:38:56 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+14:38:56 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+14:38:56 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+14:38:56 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 800,000000
+14:38:57 [DEBUG] it.epicode.ContoCorrente > Conto Rossi - Prelevo 100.0
+14:38:57 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Rossi - Saldo 800,000000
+14:38:57 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+14:38:57 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+14:38:57 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 700,000000
+14:38:57 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Rossi - Prelevo 100.0
+14:38:57 [DEBUG] it.epicode.ContoCorrente > Conto Verdi - Prelevo 100.0
+14:38:57 [DEBUG] it.epicode.ContoCorrente > Sto per prelevare dal Conto Verdi - Prelevo 100.0
+14:38:57 [DEBUG] it.epicode.Bancomat > Prelievo effettuato di 100.0 dal conto Conto: Verdi - Saldo 600,000000

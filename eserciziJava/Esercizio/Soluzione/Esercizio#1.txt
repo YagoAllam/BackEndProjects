@@ -1,0 +1,5 @@
+List<Product> result = productRepo.findAll()
+  .stream()
+  .filter(p -> p.getCategory().equalsIgnoreCase("Books"))
+  .filter(p -> p.getPrice() > 100)
+  .collect(Collectors.toList());

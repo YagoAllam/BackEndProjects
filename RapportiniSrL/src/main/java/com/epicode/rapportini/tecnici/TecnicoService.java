@@ -9,9 +9,11 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import lombok.AllArgsConstructor;
+import lombok.extern.slf4j.XSlf4j;
 
 @Service
 @AllArgsConstructor
+@XSlf4
 public class TecnicoService {
 	
 	
@@ -21,7 +23,7 @@ public class TecnicoService {
 	
 	
 	public ResponseEntity<Page<Tecnico>>  getAll(Pageable pageable){
-		return rep.findAll(pageable);
+//		return rep.findAll(pageable);
 		
 	}
 	

@@ -1,0 +1,8 @@
+it\epicode\datamodels\Order.class
+it\epicode\services\OrderService.class
+it\epicode\services\OrderServiceImpl.class
+it\epicode\datamodels\Category.class
+it\epicode\datamodels\Product.class
+it\epicode\Program.class
+it\epicode\datamodels\Customer.class
+it\epicode\datamodels\Entity.class

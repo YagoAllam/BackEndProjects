@@ -1,0 +1,5 @@
+    List<Product> result = productRepo.findAll()
+        .stream()
+        .filter(p -> p.getCategory().equalsIgnoreCase("Toys"))
+        .map(p -> p.withPrice(p.getPrice() * 0.9))
+        .collect(Collectors.toList());  

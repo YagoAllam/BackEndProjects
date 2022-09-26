@@ -1,0 +1,63 @@
+
+MODELS:
+          
+          
+ Clinte:  --> tipo di cliente -->
+									PA
+									SAS
+									SPA
+									SRL
+									                                
+          -ragioneSociale
+          -partitaIva
+		  -email
+		  -dataInserimento (salvato per ordinare/filtrare)
+		  -dataUltimoContatto (salvato per ordinare/filtrare)
+		  -fatturatoAnnuale (salvato per ordinare/filtrare)
+		  -pec
+		  -telefono
+		  -emailContatto
+		  -nomeContatto (salvato per filtrare)
+		  -cognomeContatto
+		  -telefonoContatto
+		  -IndirizzoSedeLegale (salvato per ordinare)
+		  -IndirizzoSedeOperativa
+		  
+		  
+
+ 
+Indirizzo 
+			-via
+			-civico
+			-localitÃ 
+			-cap
+			-comune   --> nome, 
+			          --> Provincia --> nome
+			                        --> sigla
+			                        
+
+Fattura: 	-Stato (dinamico --> tabela) 
+			-Fatturato annuale (salvato per filtrare)    --> Filto Range di importi
+			-Data di inserimento (salvato per filtrare)
+			-Data di ultimo contatto 
+			-Provincia della sede legale.
+			-Cliente (salvato per filtrare)
+			
+			
+			
+AZIONI:
+servizi REST per  cliente, fattura  + filtrare a seconda della traccia
+
+
+PASSAGGI DA FARE:
+1) CREARE GLI ENTITY (MODELS)
+2) Provare DB
+3) CREARE Repositorys
+4) CREARE Services
+5) CREARE i tester ( JUnit)
+5) CREARE Controllers
+6) PROVARE i REST con Postman
+
+
+		  
+		  

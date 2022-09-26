@@ -1,0 +1,30 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>it.epicode.be</groupId>
+	<artifactId>s6l4e4</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>Esercizio 28/07/2022</name>
+	<description>
+		Esercizio #1
+		Ottenere una lista di prodotti che appartengono alla categoria «Books» ed hanno un prezzo maggiore di 100
+		Esercizio #2
+		Ottenere una lista di ordini con prodotti che appartengono alla categoria «Baby»
+		Esercizio #3
+		Ottenere una lista di prodotti che appartengono alla categoria «Boys» ed applicare 10% di sconto al loro prezzo
+		Esercizio #4
+		Ottenere una lista di prodotti ordinati da clienti di livello (tier) 2 tra l’01-Feb-2021 e l’01-Apr-2021
+	</description>
+	<dependencies></dependencies>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>
+				<configuration>
+					<release>13</release>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

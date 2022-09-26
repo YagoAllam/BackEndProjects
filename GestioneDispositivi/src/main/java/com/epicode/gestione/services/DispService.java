@@ -25,7 +25,6 @@ public class DispService {
 	private ObjectProvider<Dispositivo> dispProvider;
 	
 	
-	
 	public Optional<Dispositivo> getById( Long id) {
 		
 		Optional<Dispositivo> dispResult = rep.findById(id);
@@ -45,8 +44,6 @@ public class DispService {
 		Dispositivo dispNuovo = dispProvider.getObject();
 		
 		BeanUtils.copyProperties(dto, dispNuovo);
-		
-
 		return rep.save(dispNuovo);
 			
 		

@@ -1,0 +1,13 @@
+Un'azienda gestisce i suoi prodotti 
+attraverso diversi listini prezzi 
+caratterizzati da un diverso sconto 
+praticato ai clienti 
+
+Prodotto
+	nome
+	prezzo unitario (di default)
+	
+Listino
+	nome
+	sconto
+	lista di prodotti
